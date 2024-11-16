@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<!-- TestNG Suite Configuration -->
+<suite name="Suite">
+
+	<listeners>
+		<listener class-name="ExtentReportForTestNG.ExtentReportManager" />
+	</listeners>
+	
+	<!-- Test Configuration for Chrome Browser -->
+	<test name="ChromeTest">
+		<!-- Parameter to specify the browser type -->
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<!-- Specify the class containing the test methods -->
+			<class name="allLoanCalculators.LoanCalculator" />
+		</classes>
+	</test>
+	<!-- End of ChromeTest -->
+	
+	
+
+</suite>
+<!-- End of Suite -->

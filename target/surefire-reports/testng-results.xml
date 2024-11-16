@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-06T10:48:47 IST" name="Suite" finished-at="2024-11-06T10:49:21 IST" duration-ms="34517">
+    <groups>
+    </groups>
+    <test started-at="2024-11-06T10:48:47 IST" name="ChromeTest" finished-at="2024-11-06T10:49:21 IST" duration-ms="34517">
+      <class name="allLoanCalculators.LoanCalculator">
+        <test-method signature="testCarLoanCalculation(java.lang.String)[pri:1, instance:allLoanCalculators.LoanCalculator@7a220c9a]" started-at="2024-11-06T10:48:47 IST" name="testCarLoanCalculation" finished-at="2024-11-06T10:49:05 IST" duration-ms="18319" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCarLoanCalculation -->
+        <test-method signature="testHomeLoanEmiCalculator(java.lang.String)[pri:2, instance:allLoanCalculators.LoanCalculator@7a220c9a]" started-at="2024-11-06T10:49:05 IST" name="testHomeLoanEmiCalculator" finished-at="2024-11-06T10:49:08 IST" depends-on-methods="allLoanCalculators.LoanCalculator.testCarLoanCalculation" duration-ms="2814" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomeLoanEmiCalculator -->
+        <test-method signature="testEmiCalculator(java.lang.String)[pri:3, instance:allLoanCalculators.LoanCalculator@7a220c9a]" started-at="2024-11-06T10:49:08 IST" name="testEmiCalculator" finished-at="2024-11-06T10:49:21 IST" depends-on-methods="allLoanCalculators.LoanCalculator.testHomeLoanEmiCalculator" duration-ms="13335" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmiCalculator -->
+      </class> <!-- allLoanCalculators.LoanCalculator -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
